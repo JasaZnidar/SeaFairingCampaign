@@ -1,8 +1,8 @@
-PWD c:/Users/jz6042/Desktop/Sea Fairing Campaign
+PWD c:/Users/jz6042/Documents/D&D/Sea Fairing Campaign
 INPUT c:/texlive/2023/texmf.cnf
 INPUT c:/texlive/2023/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT c:/Users/jz6042/Desktop/Sea Fairing Campaign/Compedium.tex
+INPUT c:/Users/jz6042/Documents/D&D/Sea Fairing Campaign/Compedium.tex
 OUTPUT LaTex/Compedium.log
 INPUT c:/texlive/2023/texmf-dist/tex/latex/base/article.cls
 INPUT c:/texlive/2023/texmf-dist/tex/latex/base/article.cls
