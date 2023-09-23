@@ -1,14 +1,17 @@
 \documentclass{article}
 
+\usepackage[utf8]{inputenc}
 \usepackage{multicol}
 \usepackage{multirow}
 \usepackage{tabularx}
 \usepackage{xcolor}
 \usepackage{array}
 \usepackage{textgreek}
+\usepackage[hidelinks]{hyperref}
 
 \title{Compedium}
 \author{Jaša Žnidar}
+
 
 \begin{document}
 \maketitle
@@ -16,51 +19,82 @@
 \begin{multicols}{2}
 
     \section{Party}
+    \label{party}
 
-    \subsection{\textit{Alaric Stormborn}}
+    \subsection{Alaric Stormborn}
+    \label{aleric}
 
-    \subsection{\textit{a parrot}}
+    He was sent by his clergy/order to join the expedition in order to investigate the natural order.
 
-    \subsection{\textit{Nassalya Caeli}}
+    He once said "generosity is greatly rewarded", after he paid a LOT more for breakfast at the \hyperref[strumming_salmon]{\textit{Strumming Salmon}}.
 
-    \subsection{\textit{\textLambda\textSigma\textTheta\textNu (Aeon Sahd)}}
+    \subsection{Nassalya Caeli}
+    \label{nassalya}
 
-    He showed interest in \textit{The Depths}, however claimed he knew nothing.
+    She joined the expedition because the stars in the sky are different from before.
 
-    \subsection{\textit{Leander Pembrooke}}
 
-    \subsection{\textit{Koshann Dremredol}}
+    \subsection{ΛΣΘΠ (Aeon Sahd)}
+    \label{aeon}
+
+    When asked why he joined the expedition he lied that there was no reason, it is assumed that the reson was a peronal thing.
+
+    He showed interest in \hyperref[depths]{\textit{The Depths}}, however claimed he knew nothing.
+
+    He is full of shit (IDK what the context was).
+
+    He found a book (diary).
+
+    \subsection{Leander Pembrooke}
+    \label{leander}
+
+    His purpus to join the expedition is to investigate new cultures.
+
+    \subsection{Koshann Dremredol}
+    \label{koshann}
+
+    He explained that he joined the expedition in order to find his father.
 
     \section{Locations}
+    \label{locations}
 
-    \subsection{\textit{Baulder's Wall}}
+    \subsection{Baulder's Wall}
+    \label{baulders_wall}
 
     The city was relatively new and still in development.
 
-    \subsubsection{ \textit{Strumming Salmon} Inn}
+    \subsubsection{Strumming Salmon Inn}
+    \label{strumming_salmon}
 
-    The inn is located at the center of \textit{Baulder's Wall} It is run by:
+    The inn is located at the center of \hyperref[baulders_wall]{\textit{Baulder's Wall}} It is run by:
 
     \begin{itemize}
-        \item \textit{Algar Dormund} owner dwarf
-        \item \textit{Marga Dormund} owners wife half-orc
-        \item \textit{Styg Kasti} server tabaxi
+        \item \hyperref[algar]{\textit{Algar Dormund}} owner
+        \item \hyperref[marga]{\textit{Marga Dormund}} owners wife
+        \item \hyperref[styg]{\textit{Styg Kasti}} server
     \end{itemize}.
 
     Price list:
 
     \begin{tabular}{l r}
-        Ale & 5SP
+        Ale                   & \multirow{1}{1cm}{5SP}  \\
+        Water                 & \multirow{1}{1cm}{???}  \\
+        Tea                   & \multirow{1}{1cm}{???}  \\
+        Breakfast             & \multirow{2}{1cm}{15CP} \\
+        (1 food item + 1 drink)                         \\
+        Meat pie              & \multirow{1}{1cm}{???}  \\
+        Sausage \and potatoes & \multirow{1}{1cm}{???}  \\
     \end{tabular}
 
     \subsubsection{Bakery}
+    \label{bakery}
 
-    The bakery is located across from the \textit{Strumming Salmon}. It is run by:
+    The bakery is located across from the \hyperref[strumming_salmon]{\textit{Strumming Salmon}}. It is run by:
 
     \begin{itemize}
-        \item \textit{Kalma} young girl halfling
-        \item \textit{Munda} mother halfling
-        \item \textit{Corvi} son halfling
+        \item \textit{Kalma}
+        \item \textit{Munda}
+        \item \textit{Corvi}
     \end{itemize}
 
     Price list:
@@ -72,104 +106,202 @@
     \end{tabular}
 
     \subsubsection{ \textit{Ersyl's'} museum}
+    \label{museum}
 
-    The museum owned by \textit{Ersyl Ursyla Sylas}. It is located 2-3min of walking after turning right after exiting the \textit{Strumming Salmon}.
+    The museum owned by \hyperref[ersyl]{\textit{Ersyl Ursyla Sylas}}. It is located 2-3min of walking after turning right after exiting the \textit{Strumming Salmon}.
 
-    The museums caretaker is \textit{Cetus}.
+    The museums caretaker is \hyperref[cetus]{\textit{Cetus}}.
 
-    \subsection{\textit{The Depths}}
+    \subsection{The Depths}
+    \label{depths}
 
-    \textit{The Depths} seem to be the oceanic version of the Underdark. However not much more is known.
+    This place seem to be the oceanic version of the Underdark. However not much more is known.
 
-    \subsection{\textit{Sea Ghaul Island}}
+    \subsection{Sea Ghaul Island}
+    \label{sea_ghaul_island}
 
-    One of the new islands that appeared after \textit{The Cataclism}. People have been known to dissappear on this island.
+    One of the new islands that appeared after \hyperref[cataclism]{\textit{The Cataclism}}. People have been known to dissappear on this island.
 
-    \subsubsection{Pub \textit{Nymphs}}
+    \subsubsection{Pub Nymphs}
+    \label{nymphs}
 
-    A pub located on \textit{Sea Ghaul Island}.
+    A pub located on \hyperref[sea_ghaul_island]{\textit{Sea Ghaul Island}}.
 
     \section{Events}
+    \label{events}
 
     \subsection{Invitation flyers}
+    \label{invitation}
 
     There were invitation flyers inviting adventurers to Baulder's Wall. Not much information was given on the actuall flyer, only that they should meet at the museum. The flyer was signed by a
-    \textit{Ersyl Ursyla Sylas}.
+    \hyperref[ersyl]{\textit{Ersyl Ursyla Sylas}}.
 
     The actuall location of the museum was ommited.
 
-    \subsection{\textit{The Cataclism}}
+    \subsection{The Cataclism}
+    \label{cataclism}
 
-    \textit{The Cataclism} was an event that happened in the sea next to The Sword Coast. The event changed the layout of the sea entirely, removing old and familier islands and waters with new ones.
+    This was an event that happened in the sea next to The Sword Coast. The event changed the layout of the sea entirely, removing old and familier islands and waters with new ones.
 
-    \textit{Gohl} witnessed the event first hand and described it vividly.
+    \hyperref[gohl]{\textit{Gohl}} witnessed the event first hand and described it vividly.
 
     \subsection{Ghost Story}
+    \label{ghost_story}
 
-    \textit{Morgu} was outside of the Pub called \textit{Nymphs} song on Sea Ghauls Island he had left after being with a friend, and turned left on the port at around 00:30. A ship came out of nowhere, rune markings on the side, black
-    hull, no sails or sailors, that he noticed. He did noticed that the light of the lighthouse was passing through the ship.
+    \textit{Morgu} was outside of the Pub called \hyperref[nymphs]{\textit{Nymphs}} song on Sea Ghauls Island he had left after being with a friend, and turned left on the port at around 00:30. A ship came out of
+    nowhere, rune markings on the side, black hull, no sails or sailors, that he noticed. He did noticed that the light of the lighthouse was passing through the ship.
 
     \section{Objects}
+    \label{objects}
 
-    \subsection{\textit{Gullsinger}}
+    \subsection{Gullsinger}
+    \label{gullsinger}
 
-    This is the ship provided by \textit{Ersyl Ursyla Sylas} for the expedition.
+    This a ships belonging to pirates, who were hired by \hyperref[ersyl]{\textit{Ersyl Ursyla Sylas}} for the expedition. It is sometimes refered to as \textit{Lady Reverance}.
+
+    The head of the ship is an aquatic women with a harp for a lower body.
+
+    \section{Organisations}
+    \label{orgs}
+
+    \subsection{Pirates of the Gullsinger}
+    \label{gullsinger_pirates}
+
+    They are pirates sailing with the \hyperref[gullsinger]{\textit{Gullsinger}}. All the crew members are bards.
 
     \section{NPC's}
+    \label{npcs}
 
-    \subsection{\textit{Ersyl Ursyla Sylas}}
+    \subsection{Ersyl Ursyla Sylas}
+    \label{ersyl}
 
-    She is the owner of a museum in \textit{Baulder's Wall} and the person who wrote the invitation flyers to explore the new islands left behind by \textit{The Cataclism}. She is a curvy khalishtar with glasses and a
+    She is the owner of a museum in \hyperref[baulders_wall]{\textit{Baulder's Wall}} and the person who wrote the invitation flyers to explore the new islands left behind by \textit{The Cataclism}. She is a curvy khalishtar with glasses and a
     long skirt.
 
-    \subsection{\textit{Cetus}}
+    \subsection{Cetus}
+    \label{cetus}
 
-    He is the caretaker of \textit{Ersyl's} museum and her brother. He is a goliath with braided hair, stuble (forgot what that means) and yellow eyes.
+    He is the caretaker of \hyperref[ersyl]{\textit{Ersyl's}} museum and her brother. He is a goliath with braided hair, stuble (frashley shaven beard) and yellow eyes.
 
-    \subsection{\textit{Algar Dormund}}
+    \subsection{Algar Dormund}
+    \label{algar}
 
-    He is a dwarf and the owner of \textit{Strumming Salmon} and is married to \textit{Marga Dormund} who works allong side him at the inn.
+    He is a dwarf and the owner of \hyperref[strumming_salmon]{\textit{Strumming Salmon}} and is married to \hyperref[marga]{\textit{Marga Dormund}} who works allong side him at the inn.
 
-    He said that \textit{Ersyl} wants to explore the new islands left behind by \textit{The Cataclism} in order to find artifacts for her museum and find out the reason for \textit{The Cataclism}.
+    He said that \hyperref[ersyl]{\textit{Ersyl}} wants to explore the new islands left behind by \hyperref[cataclism]{\textit{The Cataclism}} in order to find artifacts for her museum and find out the reason for
+    \hyperref[cataclism]{\textit{The Cataclism}}.
 
-    \subsection{\textit{Marga Dormund}}
+    He seemed to get nervous at the mear mention of the \hyperref[gullsinger]{\textit{Lady Reverance}}.
 
-    She is a Half-orc who works at the \textit{Strumming Salmon} and is married to the inns owner \textit{Algar Dormund}.
+    \subsection{Marga Dormund}
+    \label{marga}
 
-    \subsection{\textit{Styg Kasti}}
+    She is a Half-orc who works at the \hyperref[strumming_salmon]{\textit{Strumming Salmon}} and is married to the inns owner \hyperref[algar]{\textit{Algar Dormund}}.
 
-    She is a tabaxi that works at the \textit{Strumming Salmon} as a server. She appears to have no special relationship with the owner.
+    \subsection{Styg Kasti}
+    \label{styg}
 
-    \subsection{\textit{Kalma}}
+    She is a tabaxi that works at the \hyperref[strumming_salmon]{\textit{Strumming Salmon}} as a server. She appears to have no special relationship with the owner.
+
+    \subsection{Kalma}
+    \label{kalma}
 
     She is a young halfling working at a bakery in Baulder's Wall.
 
-    \subsection{\textit{Munda}}
+    \subsection{Munda}
+    \label{munda}
 
-    She is a halfling working at a bakery in Baulder's Wall and the mother of \textit{Corvi}.
+    She is a halfling working at a bakery in Baulder's Wall and the mother of \hyperref[corvi]{\textit{Corvi}}.
 
-    \subsection{\textit{Corvi}}
+    \subsection{Corvi}
+    \label{corvi}
 
-    She is a halfling working at a bakery in Baulder's Wall and the son of \textit{Munda}.
+    She is a halfling working at a bakery in Baulder's Wall and the son of \hyperref[munda]{\textit{Munda}}.
 
-    \subsection{\textit{Doll and Shea}}
+    \subsection{Doll \& Shea}
+    \label{doll_shea}
 
-    They are half-elfs that were found drinking in the \textit{Strumming Salmon}. They were questioning \textit{Ersyl's} motives for the expeditions and recruting adventurers for it.
+    They are half-elfs that were found drinking in the \hyperref[strumming_salmon]{\textit{Strumming Salmon}}. They were questioning \hyperref[ersyl]{\textit{Ersyl's}} motives for the expeditions and recruting
+    adventurers for it.
 
-    They were also shook by the mere mention of \textit{The Cataclism}.
+    They were also shook by the mere mention of \hyperref[cataclism]{\textit{The Cataclism}}.
 
-    \subsection{\textit{Gohl}}
+    \subsection{Gohl}
+    \label{gohl}
 
     He is an old human, about 5'7" in height. He has a beard and a scar going over his mouth.
 
-    He claims to have witnessed the \textit{The Cataclism} first hand. The following is how he saw it unfold:
+    He claims to have witnessed the \hyperref[cataclism]{\textit{The Cataclism}} first hand. The following is how he saw it unfold:
     First there was strong rummbling, which was followed by strong waves at the sea. Then he saw a bright light, followed by an explosion which brought with it darkness. After the explosion all the islands
     dissapeared along with the water. The void of water was soon filled by new water.
     This whole ordeal only lasted a few moments.
 
-    \subsection{\textit{Morgu}}
+    \subsection{Morgu}
+    \label{morgu}
 
     He drinks a lot.
+
+    \subsection{Saltata}
+    \label{Saltata}
+
+    She is a big and pretty yuan-ti, who works as a chef aboard the \hyperref[gullsinger]{\textit{Gullsinger}}. She is hard to speak to.
+
+    Tha \hyperref[party]{party} first encountered her  on the docks, before leaving \hyperref[baulders_wall]{\textit{Baulder's Wall}} for the first time and meeting the crew of the
+    \hyperref[gullsinger]{\textit{Gullsinger}}. She was ornately dressed.
+
+    \subsection{Garm}
+    \label{garm}
+
+    He is a tall bald grey skined goliath with piercing silver eyes and a braid. He is \hyperref[cetus]{\textit{Cetus's}} brother, tho they don't get along. He is also the captain of the
+    \hyperref[gullsinger]{\textit{Gullsinger}}.
+
+    While he is not pacient, he is understanding.
+
+    When asked about the existance of ghost ships in regards to the \hyperref[gohl]{\textit{Ghost Story}}, he said he has seen many interesting things, a lot of krakens in the water. Even so, ghost ships to him sounded
+    stupid.
+
+    He said that most dragons he encountered were chromatic and only met one metalic dragon, which was female of what he could tell.
+
+    \subsection{Ollec}
+    \label{ollec}
+
+    He is the first mate on board of the \hyperref[gullsinger]{\textit{Gullsinger}}.
+
+    \subsection{Clarie}
+    \label{clarie}
+
+    She is a 5'3" sea elf, who is the \hyperref[gullsinger]{\textit{Gullsingers}} navigator. She likes to bully \hyperref[garm]{\textit{Garm}} and described the chef to be exotic.
+
+    \subsection{Parhy}
+    \label{parhy}
+
+    He is a Satyr who works as an enterteiner on the \hyperref[gullsinger]{\textit{Gullsinger}}.
+
+    \subsection{Reed}
+    \label{reed}
+
+    He is a gnome, who works as a doctor on the \hyperref[gullsinger]{\textit{Gullsinger}}. In the infermary, there is a holy symbol, which belongs to \hyperref[milil]{\textit{Milil}}.
+
+    \subsection{Milil}
+    \label{milil}
+
+    She is a lesser god.
+
+    \subsection{Note}
+    \label{note}
+
+    He is a kenku, who works as a lookout on the \hyperref[gullsinger]{\textit{Gullsinger}}.
+
+    He likes talking to people and is best friends with \hyperref[parhy]{\textit{Parhy}}.
+
+    \subsection{Garth \& Trea}
+    \label{garth_trea}
+
+    Garth is a human, while Trea is an orc. They are married and seemed like they were in a vacation mood on the \hyperref[gullsinger]{\textit{Gullsinger}}.
+
+    He had a long sword on his hip and a straw hat on his head.
+
+    They were on the \hyperref[gullsinger]{\textit{Gullsinger}} because they are looking for their son.
 
 
 \end{multicols}
